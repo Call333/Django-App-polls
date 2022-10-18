@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./images/cropped-1366-768-757554.png');
+    background-position: center;
+}
+
+.field {
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    background-color: rgba(166, 166, 166, 0.9);
+    border-color: rgb(65, 65, 75);
+    border-radius: 15px;
+}
+
+.legend {
+    display: flex;
+    justify-content: center;
+}
+
+.votes {
+    margin: 0px 100px 20px 100px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(16, 16, 19);
+    font-weight: 500;
+    margin: 0 100px 0 100px
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}

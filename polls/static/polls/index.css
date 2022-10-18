@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    background: white url("./images/cropped-1366-768-757554.png") no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unit {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(166, 166, 166, 0.82);
+    border-color: rgb(65, 65, 75);
+    border-radius: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+ul {
+    color: #000;
+    list-style-type: none;
+    padding: 10px;
+}
